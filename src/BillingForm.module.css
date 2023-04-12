@@ -1,0 +1,82 @@
+.customer-name-section {
+  padding: 16px;
+  background-color: lightgray;
+}
+
+.customer-name-section label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.customer-name-section input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.product-selection-section {
+  padding: 16px;
+  background-color: lightgray;
+}
+
+.product-selection-section > div {
+  margin-bottom: 8px;
+}
+
+.product-selection-section label {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.product-selection-section select,
+.product-selection-section input[type="number"] {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+.product-selection-section select {
+  width: 150px;
+  max-width: 100%;
+  margin-right: 16px;
+}
+
+.product-selection-section button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.product-list-item {
+  margin-bottom: 8px;
+}
+
+.product-list-item p {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+.bill-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bill-table th,
+.bill-table td {
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.bill-table th {
+  background-color: lightgray;
+  text-align: left;
+}
